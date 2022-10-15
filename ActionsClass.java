@@ -20,6 +20,7 @@ public class ActionsClass {
 		Thread.sleep(2000);
 		driver.findElement(By.linkText("COURSES")).click();
 		driver.navigate().refresh();
+		driver.close();
 
 	}
 
